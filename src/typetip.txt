@@ -1,0 +1,24 @@
+npx create-react-app my-app --template typescript
+
+1. tsconfig.json에서 설정한다
+target es6로바꾸고 lib에 es6추가한다
+
+2.컴포넌트 타입은 :React.FC 
+react닷 function컴포넌트를 리턴을 할거다
+
+
+3. 확장
+ES7 React/Redux/GraphQL/React-Native snippets
+이거 갈고 rafce치면 저절로 완성해줌
+code spell checker도깔려면깔기
+
+4. 타입은 보통 모델이랑는 폴더를 만들고 만듬
+그안에 ts파일로 만들어줬음
+
+5. type은 type이나 interface로만든다
+
+6. type도 export import해서 쓸수있다
+
+7.객체도 타입으로 만들어서 간결하게 쓸수있따.
+
+8. 제네릭 useState<> 같은거 부를때 <>쓰는게 제네릭문법이다 useState타입지정인듯
